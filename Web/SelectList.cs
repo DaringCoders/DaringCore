@@ -10,7 +10,7 @@ namespace Web
 {
     public static class SelectExtensions
     {
-        public static HtmlString DropDownList(this HtmlHelper helper, string name, Type type, object selected)
+        public static IEnumerable<SelectListItem> SelectListFromEnum(Type type, object selected)
         {
             if (!type.IsEnum)
                 throw new ArgumentException("Type is not an enum.");
@@ -29,7 +29,7 @@ namespace Web
                 enums.Add(item);
             }
 
-            return System.Web.Mvc.Html.SelectExtensions.DropDownList(helper, name, enums, "--Select--");
+            return enums;
         }
     }
 }
