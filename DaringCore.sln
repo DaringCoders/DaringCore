@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaringCore", "DaringCore\DaringCore.csproj", "{9728C2B6-6FB0-47CA-ABA4-6AA4E188A356}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{7245F73C-5326-4FC5-8088-7158931081AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9728C2B6-6FB0-47CA-ABA4-6AA4E188A356}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9728C2B6-6FB0-47CA-ABA4-6AA4E188A356}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9728C2B6-6FB0-47CA-ABA4-6AA4E188A356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7245F73C-5326-4FC5-8088-7158931081AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7245F73C-5326-4FC5-8088-7158931081AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7245F73C-5326-4FC5-8088-7158931081AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7245F73C-5326-4FC5-8088-7158931081AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
