@@ -7,8 +7,8 @@
     <ProjectGuid>{7245F73C-5326-4FC5-8088-7158931081AA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Web</RootNamespace>
-    <AssemblyName>Web</AssemblyName>
+    <RootNamespace>DaringCore.Web</RootNamespace>
+    <AssemblyName>DaringCore.Web</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -43,6 +43,12 @@
   <ItemGroup>
     <Compile Include="SelectList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DaringCore\DaringCore.csproj">
+      <Project>{9728c2b6-6fb0-47ca-aba4-6aa4e188a356}</Project>
+      <Name>DaringCore</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
