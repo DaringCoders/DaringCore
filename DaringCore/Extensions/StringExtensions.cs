@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace DaringCore.Extensions
 {
@@ -28,6 +29,11 @@ namespace DaringCore.Extensions
                 return String.Empty;
 
             return String.Concat(value.Where(Char.IsLetterOrDigit));
+        }
+
+        public static string SplitCamelCase(this String input)
+        {
+            return Regex.Replace(input, "([A-Z])", " $1", RegexOptions.Compiled).Trim();
         }
     }
 }
