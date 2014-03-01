@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Web.Mvc;
+using DaringCore.Extensions;
 
 namespace DaringCore.Web
 {
@@ -17,7 +18,7 @@ namespace DaringCore.Web
             var enums = new List<SelectListItem>();
             foreach (int value in Enum.GetValues(type))
             {
-                var item = new SelectListItem { Value = Enum.GetName(type, value), Text = Enum.GetName(type, value) };
+                var item = new SelectListItem { Value = Enum.GetName(type, value), Text = Enum.GetName(type, value).SplitCamelCase() };
 
                 if (selected != null)
                     item.Selected = (int)selected == value;
