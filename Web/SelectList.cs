@@ -4,7 +4,7 @@ using System.Web.Mvc;
 
 namespace DaringCore.Web
 {
-    public static class SelectExtensions
+    public static class SelectListHelpers
     {
         public static IEnumerable<SelectListItem> SelectListFromEnum(Type type, object selected)
         {
