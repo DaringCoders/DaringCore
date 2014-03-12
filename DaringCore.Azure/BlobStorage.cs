@@ -10,7 +10,7 @@ namespace DaringCore.Azure
     /// <summary>
     /// Static wrapper for common Azure Blob Storage methods.
     /// 
-    /// This class is thread safe so long as the connection string is not reset.
+    /// This class is thread safe so long as the connection string is not changed.
     /// 
     /// Ussage:
     ///     AzureBlob.ConnectionString = "YourAzureStorageAccountConnectionString";

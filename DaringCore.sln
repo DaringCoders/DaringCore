@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaringCore.Web", "Web\Darin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaringCore.Azure", "DaringCore.Azure\DaringCore.Azure.csproj", "{7B25C554-D7A9-48CA-B19A-A8DDA37D30FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaringCore.EF", "DaringCore.EF\DaringCore.EF.csproj", "{7A93A2B7-DDA3-4878-97C8-9C2C0945305B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7B25C554-D7A9-48CA-B19A-A8DDA37D30FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B25C554-D7A9-48CA-B19A-A8DDA37D30FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B25C554-D7A9-48CA-B19A-A8DDA37D30FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A93A2B7-DDA3-4878-97C8-9C2C0945305B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A93A2B7-DDA3-4878-97C8-9C2C0945305B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A93A2B7-DDA3-4878-97C8-9C2C0945305B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A93A2B7-DDA3-4878-97C8-9C2C0945305B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
