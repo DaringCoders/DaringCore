@@ -20,7 +20,7 @@ namespace DaringCore.Extensions
             if (String.IsNullOrEmpty(value))
                 return String.Empty;
 
-            return Encoding.ASCII.GetString(Convert.FromBase64String(value)); ;
+            return Encoding.ASCII.GetString(Convert.FromBase64String(value));
         }
 
         static public string AlphaNumericOnly(this string value)
